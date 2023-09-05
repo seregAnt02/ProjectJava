@@ -14,3 +14,5 @@
  * System.out.printf("%e\n", pi); // 3,141500e+00
  * System.out.printf("%.2e\n", pi); // 3,14e+00
  * System.out.printf("%.3e\n", pi); // 3,141e+00
+### Шпаргалка по Java
+https://lyrical-galette-983.notion.site/Java-1215730b83734f62b8618c398f4010ab
