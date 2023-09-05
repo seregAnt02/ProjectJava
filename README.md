@@ -18,3 +18,5 @@
 https://lyrical-galette-983.notion.site/Java-1215730b83734f62b8618c398f4010ab
 ### Основные виды сортировок и примеры их реализации
 https://academy.yandex.ru/journal/osnovnye-vidy-sortirovok-i-primery-ikh-realizatsii
+### Логирование в Java: что, как, где и чем?
+https://javarush.com/groups/posts/2388-logirovanie-chto-kak-gde-i-chem
