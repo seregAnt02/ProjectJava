@@ -16,3 +16,5 @@
  * System.out.printf("%.3e\n", pi); // 3,141e+00
 ### Шпаргалка по Java
 https://lyrical-galette-983.notion.site/Java-1215730b83734f62b8618c398f4010ab
+### Основные виды сортировок и примеры их реализации
+https://academy.yandex.ru/journal/osnovnye-vidy-sortirovok-i-primery-ikh-realizatsii
