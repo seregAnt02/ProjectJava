@@ -1,4 +1,15 @@
-private static Map<String, ArrayList<String>> phoneNote = new LinkedHashMap<>();
+// Реализуйте структуру телефонной книги с помощью Map, учитывая, что 1 человек может иметь несколько телефонов и у человека уникальное имя.
+//  Поработать с методами Map. Отсортировать Map в обратном порядке.
+
+package HW5;
+
+import java.util.ArrayList;
+import java.util.LinkedHashMap;
+import java.util.Map;
+import java.util.stream.Collectors;
+
+public class PhoneBook {
+    private static Map<String, ArrayList<String>> phoneNote = new LinkedHashMap<>();
 
 
     public static void main(String[] args) {
@@ -38,3 +49,4 @@ private static Map<String, ArrayList<String>> phoneNote = new LinkedHashMap<>();
             LinkedHashMap:: new
         ));
     }
+}
