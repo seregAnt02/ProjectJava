@@ -77,29 +77,30 @@ public class HW6 {
                if (pair1.equals("2") && !notebook.getRam().equals(criterias.get(pair1))) {
                   temp.remove(notebook);
 
-               }
-               for (Object pair2 : criterias.keySet()) {
+               }               
+            }
+            for (Object pair2 : criterias.keySet()) {
 
                   if (pair2.equals("3") && !notebook.getHardDisk().equals(criterias.get(pair2))) {
                      temp.remove(notebook);
 
-                  }
-                  for (Object pair3 : criterias.keySet()) {
+                  }                  
+               }
+            for (Object pair3 : criterias.keySet()) {
 
                      if (pair3.equals("4") && !notebook.getOperatingSystem().equals(criterias.get(pair3))) {
                         temp.remove(notebook);
 
-                     }
-                     for (Object pair4 : criterias.keySet()) {
+                     }                     
+                  }
+            for (Object pair4 : criterias.keySet()) {
 
                         if (pair4.equals("5") && !notebook.getColour().equals(criterias.get(pair4))) {
                            temp.remove(notebook);
 
                         }
                      }
-                  }
-               }
-            }
+                     
          }
 
       }
