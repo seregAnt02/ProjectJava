@@ -14,17 +14,8 @@ public class Plate {
     public Integer getFood(){
         return this.food;
     }
-
-    public Integer setFood(int inFood){
-        if(inFood >= 0) {
-            this.food = inFood;
-            System.out.println("остаток еды: " + this.food);
-            return this.food;
-        }
-        else {
-            System.out.println("Значение не может быть отрицательным числом: " + inFood);
-            return inFood;
-        }
+    public Integer setFood(int inFood){                                
+            return this.food = inFood;
     }
     public void info() {
         System.out.println("plate: " + food);
