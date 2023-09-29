@@ -17,7 +17,7 @@ public class MainClass {
         Cat cat = new Cat("cat", 5);
         Cat cat1 = new Cat("cat1", 30);
         Cat cat2 = new Cat("cat2", 40);
-        Plate plate = new Plate(71);
+        Plate plate = new Plate(72);
 
         plate.addPlate(3);        
 
@@ -34,9 +34,14 @@ public class MainClass {
         for(Cat item : cats){            
             int remainsFood = plate.getFood() - item.getAppetite();
             if(remainsFood >= 0){                                     
-                item.eat(item.getName(),item.setSatiety(true));                            
+                item.eat(item.getName(), item.setSatiety(true));                            
                 plate.setFood(remainsFood);
+                plate.info();
             }
+            // else{
+            //     System.out.println(String.format("Имя: %s ссытость: %b", item.getName(), item.getSatiety()));
+            //     plate.info();
+            // }
         }        
     }
 }
