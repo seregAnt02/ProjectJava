@@ -15,9 +15,10 @@ public class Cat {
         this.satiety = false;
     }
 
-    // public Boolean getIsSatiety(){
-    //     return this.satiety;
-    // }
+    public Boolean getSatiety(){
+        return this.satiety;
+    }
+
     public Boolean setSatiety(Boolean flag){
         return this.satiety = flag;
     }
