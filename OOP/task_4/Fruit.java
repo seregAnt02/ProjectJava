@@ -1,4 +1,4 @@
-package ru.geekbrains.lesson4.homework;
+package OOP.task_4;
 
 public abstract class Fruit {
 
