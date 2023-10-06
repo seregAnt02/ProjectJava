@@ -1,4 +1,4 @@
-package OOP/task_4;
+package OOP.task_4;
 
 /**
  * Яблоко
