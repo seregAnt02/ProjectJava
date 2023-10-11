@@ -1,6 +1,6 @@
-package OOPDmz.task_5.models;
+package OOP.task_5.models;
 
-import OOPDmz.task_5.presenters.Model;
+import OOP.task_5.presenters.Model;
 
 import java.util.ArrayList;
 import java.util.Collection;
