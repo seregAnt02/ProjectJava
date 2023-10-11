@@ -1,8 +1,8 @@
-package OOPDmz.task_5.views;
+package OOP.task_5.views;
 
-import OOPDmz.task_5.models.Table;
-import OOPDmz.task_5.presenters.View;
-import OOPDmz.task_5.presenters.ViewObserver;
+import OOP.task_5.models.Table;
+import OOP.task_5.presenters.View;
+import OOP.task_5.presenters.ViewObserver;
 
 import java.util.Collection;
 import java.util.Date;
