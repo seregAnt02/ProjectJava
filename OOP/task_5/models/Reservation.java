@@ -1,4 +1,4 @@
-package OOPDmz.task_5.models;
+package OOP.task_5.models;
 
 import java.util.Date;
 
