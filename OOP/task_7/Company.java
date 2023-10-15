@@ -1,4 +1,4 @@
-package OOPDmz.task_7.lesson7.observer;
+package OOP.task_7.lesson7.observer;
 
 import java.util.Random;
 
